@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Games Education</string>
+    <string name="back">Back</string>
+    <string name="play_again">New game</string>
+    <string name="reset_label">Reset</string>
+    <string name="a">a</string>
+    <string name="name_prompt">Enter your name:  </string>
+    <string name="button_label">Continue</string>
+    <string name="desc">One of the buttons on the Memory board</string>
+    <string name="title_activity_user_name">User Name</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+
+    <string name="game_title">Tic-Tac-Toe</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+
+    <string name="toggle_sound_on_label">Toggle Sound(ON)</string>
+    <string name="toggle_sound_off_label">Toggle Sound(OFF)</string>
+
+    <string name="help_label">Help</string>
+
+    <string name="about_title">About Android Tic-Tac-Toe</string>
+    <string name="about_text">This Application is developed by Vladyslav Bilous</string>
+
+    <string name="action_settings_label">Settings</string>
+
+    <string name="howtoplay_title">How To Play?</string>
+    <string name="howtoplay_Content">\n1. Choose who goes first.\n2. Enter your name in place of Player1 and Player2 by taping on them(Optional).\n3.First Player has X symbol and the second Player has O symbol.\n4.These symbols will be placed on the table, in the attempt to have three of them in a row.\n 5.The players take turns putting their symbol on the table.\n6.The first player to have 3 of their symbols in a row, whether it is horizontally, vertically, or diagonally, is the winner.\n </string>
+
+    <string name="settings_help_title">Setting Help</string>
+    <string name="settings_help_content">\n1. Sound can be toggled On or Off from the settings. Current status of Sound(On or OFF) is shows on the toggle sound label.\n</string>
+
+
+    <string name="option_empty"> </string>
+    <string name="option_x">X</string>
+    <string name="option_o">O</string>
+
+    <string name="game_play_restart_label">Restart</string>
+    <string name="game_play_quit_label">Quit</string>
+    <string name="game_play_back_label">Back</string>
+
+    <string name="Player1_label">Player1 : </string>
+    <string name="Player2_label">Player2 : </string>
+
+
+    <string name="gameplay_new_game_button">New</string>
+    <string name="game_play_status_bar_win">You win!</string>
+    <string name="game_play_status_bar_step_format">Steps Used: %d</string>
+    <string name="game_play_dialog_pause_dialog_title">Menu</string>
+    <string name="pause_menu_background_change">Background</string>
+</resources>

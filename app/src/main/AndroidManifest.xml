@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.brigs.gameseducation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+    <activity android:name=".Splash"
+
+        android:screenOrientation="landscape" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".StartScreen" android:screenOrientation="landscape" />
+        <activity android:name=".login_registration.Login" android:screenOrientation="landscape" />
+        <activity android:name=".login_registration.Registration" android:screenOrientation="landscape" />
+        <activity android:name=".MenuItems" android:screenOrientation="landscape"/>
+        <activity android:name=".games.tic_tac.TicTacToe" android:screenOrientation="landscape"/>
+        <activity android:name=".games.tic_tac.Help" android:screenOrientation="landscape"/>
+        <activity android:name=".games.tic_tac.GamePlay" android:screenOrientation="landscape"/>
+        <activity android:name=".games.f_puzzle.GamePlay" android:screenOrientation="landscape"/>
+
+    </application>
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/board">
+
+
+    <ImageView
+        android:id="@+id/memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        app:srcCompat="@drawable/memory" />
+
+    <ImageView
+        android:id="@+id/tic_tac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/puz_shufle"
+        android:layout_toEndOf="@+id/memory"
+        app:srcCompat="@drawable/krestiki_noliki" />
+
+    <ImageView
+        android:id="@+id/f_puzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_toEndOf="@+id/tic_tac"
+        app:srcCompat="@drawable/f_puzzle" />
+</RelativeLayout>

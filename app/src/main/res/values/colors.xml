@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="text_color_template">#959596</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#3500ffff</color>
+
+    <color name="top_status_bar_text_color">#FFFFFF</color>
+    <color name="tile_text_color">#681D00</color>
+    <color name="new_game_menu_row_column_number">#FFDA98</color>
+</resources>
