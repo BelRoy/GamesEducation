@@ -6,7 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import net.brigs.gameseducation.games.f_puzzle.GamePlay;
+import net.brigs.gameseducation.games.math.Mathematic;
 import net.brigs.gameseducation.games.memory.MemoryActivity;
+import net.brigs.gameseducation.games.shulte.ShulteTabs;
 import net.brigs.gameseducation.games.tic_tac.TicTacToe;
 
 public class MenuItems extends AppCompatActivity {
@@ -35,6 +37,18 @@ public class MenuItems extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuItems.this, MemoryActivity.class));
+            }
+        });
+        findViewById(R.id.math).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuItems.this, Mathematic.class));
+            }
+        });
+        findViewById(R.id.shulte).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuItems.this, ShulteTabs.class));
             }
         });
     }

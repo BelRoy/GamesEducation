@@ -28,6 +28,11 @@
         <activity android:name=".games.memory.Grid2x2_Activity" android:screenOrientation="portrait"/>
         <activity android:name=".games.memory.Grid4x4_Activity" android:screenOrientation="portrait" />
         <activity android:name=".games.memory.Grid6x6_Activity" android:screenOrientation="portrait" />
+        <activity android:name=".games.math.Mathematic" android:screenOrientation="portrait" />
+        <activity android:name=".games.math.PlayMath" android:screenOrientation="portrait" />
+        <activity android:name=".games.math.Records" android:screenOrientation="portrait" />
+        <activity android:name=".games.shulte.ShulteTabs" android:screenOrientation="portrait"/>
+        <activity android:name=".games.shulte.ShulteGame" android:screenOrientation="portrait"/>
 
 
     </application>

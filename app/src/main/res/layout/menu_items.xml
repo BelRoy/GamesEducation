@@ -34,4 +34,22 @@
         android:layout_marginTop="@dimen/dp_4"
         android:layout_toEndOf="@+id/tic_tac"
         app:srcCompat="@drawable/f_puzzle" />
+    <ImageView
+        android:id="@+id/math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_toEndOf="@+id/f_puzzle"
+        app:srcCompat="@drawable/math" />
+    <ImageView
+        android:id="@+id/shulte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_toEndOf="@+id/math"
+        app:srcCompat="@drawable/shulte" />
 </RelativeLayout>
