@@ -1,5 +1,6 @@
 package net.brigs.gameseducation.games.memory;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -124,6 +125,7 @@ public class Grid2x2_Activity extends AppCompatActivity
     }
 
     //Launch a new Grid2x2_Activity since it contains the logic to randomize and rotate the cards
+    @SuppressLint("ObsoleteSdkInt")
     public void reset2x2Grd()
     {
         if (android.os.Build.VERSION.SDK_INT >= 11)
@@ -293,6 +295,7 @@ class MemoryButton extends Button{
     public boolean isMatched = false;
 
     //Default Constructor
+    @SuppressLint("RestrictedApi")
     public MemoryButton(Context context, int Row, int Column, int FrontDrawableValue, int height)
     {
         //Parent Class Constructor

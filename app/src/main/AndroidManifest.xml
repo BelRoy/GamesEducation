@@ -25,9 +25,9 @@
         <activity android:name=".games.tic_tac.GamePlay" android:screenOrientation="landscape"/>
         <activity android:name=".games.f_puzzle.GamePlay" android:screenOrientation="landscape"/>
         <activity android:name=".games.memory.MemoryActivity" android:screenOrientation="landscape"/>
-        <activity android:name=".games.memory.Grid2x2_Activity" android:screenOrientation="landscape"/>
-        <activity android:name=".games.memory.Grid4x4_Activity" android:screenOrientation="landscape" />
-        <activity android:name=".games.memory.Grid6x6_Activity" android:screenOrientation="landscape" />
+        <activity android:name=".games.memory.Grid2x2_Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".games.memory.Grid4x4_Activity" android:screenOrientation="portrait" />
+        <activity android:name=".games.memory.Grid6x6_Activity" android:screenOrientation="portrait" />
 
 
     </application>

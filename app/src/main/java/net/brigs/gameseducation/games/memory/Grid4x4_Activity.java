@@ -1,5 +1,6 @@
 package net.brigs.gameseducation.games.memory;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -142,6 +143,7 @@ public class Grid4x4_Activity extends AppCompatActivity
     }
 
     //Launch a new Grid2x2_Activity since it contains the logic to randomize and rotate the cards
+    @SuppressLint("ObsoleteSdkInt")
     public void reset4x4Grid()
     {
         if (android.os.Build.VERSION.SDK_INT >= 11)
