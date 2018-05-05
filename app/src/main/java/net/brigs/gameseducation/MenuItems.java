@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import net.brigs.gameseducation.games.f_puzzle.GamePlay;
+import net.brigs.gameseducation.games.memory.MemoryActivity;
 import net.brigs.gameseducation.games.tic_tac.TicTacToe;
 
 public class MenuItems extends AppCompatActivity {
@@ -28,6 +29,12 @@ public class MenuItems extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuItems.this, GamePlay.class));
+            }
+        });
+        findViewById(R.id.memory).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuItems.this, MemoryActivity.class));
             }
         });
     }

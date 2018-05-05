@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="net.brigs.gameseducation.games.memory.Grid4x4_Activity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_grid4x4_"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:columnCount="4"
+    android:rowCount="4">
+</GridLayout>

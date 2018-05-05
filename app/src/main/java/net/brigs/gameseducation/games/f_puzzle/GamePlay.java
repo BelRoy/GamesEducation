@@ -30,7 +30,7 @@ import android.widget.TextView;
 import net.brigs.gameseducation.R;
 
 public class GamePlay extends Activity implements Constants, OnClickListener {
-	/** Called when the activity is first created. */
+
 
 	private FrameLayout mGameBoard;
 	private TextView mStatusBar;

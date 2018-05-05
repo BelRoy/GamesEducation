@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    tools:context="net.brigs.gameseducation.games.memory.Grid6x6_Activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_grid6x6_"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="6"
+    android:rowCount="6">
+</GridLayout>
