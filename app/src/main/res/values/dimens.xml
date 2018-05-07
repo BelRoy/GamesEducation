@@ -23,6 +23,7 @@
     <dimen name="text_dp_bar">24dp</dimen>
     <dimen name="dp_bar">32dp</dimen>
     <dimen name="shulte_shrift">45dp</dimen>
+    <dimen name="dp_140">140dp</dimen>
 
 
 </resources>

@@ -16,7 +16,7 @@ public class FourthClassItems extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_class);
+        setContentView(R.layout.fourth_class);
 
 
 

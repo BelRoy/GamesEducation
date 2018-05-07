@@ -128,4 +128,6 @@
     <string name="game_play_dialog_pause_dialog_title">Menu</string>
     <string name="pause_menu_background_change">Background</string>
     <string name="class_check">Check Your class</string>
+    <string name="wl">Welcome</string>
+    <string name="clk">Please, click for start!</string>
 </resources>

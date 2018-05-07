@@ -17,8 +17,8 @@
         </intent-filter>
     </activity>
         <activity android:name=".StartScreen" android:screenOrientation="landscape" />
-        <activity android:name=".login_registration.Login" android:screenOrientation="landscape" />
-        <activity android:name=".login_registration.Registration" android:screenOrientation="landscape" />
+      <!--  <activity android:name=".login_registration.Login" android:screenOrientation="landscape" />
+        <activity android:name=".login_registration.Registration" android:screenOrientation="landscape" />-->
         <activity android:name=".Classes" android:screenOrientation="landscape" />
         <activity android:name=".games.tic_tac.TicTacToe" android:screenOrientation="landscape"/>
         <activity android:name=".games.tic_tac.Help" android:screenOrientation="landscape"/>

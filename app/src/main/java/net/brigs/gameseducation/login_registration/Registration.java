@@ -1,3 +1,4 @@
+/*
 package net.brigs.gameseducation.login_registration;
 
 import android.os.Bundle;
@@ -12,4 +13,4 @@ public class Registration extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registration);
     }
-}
+}*/

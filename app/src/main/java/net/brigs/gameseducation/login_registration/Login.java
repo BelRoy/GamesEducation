@@ -1,3 +1,4 @@
+/*
 package net.brigs.gameseducation.login_registration;
 
 import android.os.Bundle;
@@ -13,3 +14,4 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.login);
     }
 }
+*/
