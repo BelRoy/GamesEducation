@@ -296,7 +296,7 @@ public class Grid6x6_Activity extends AppCompatActivity
     }
 }
 
-class MemoryButtonC extends Button {
+class MemoryButtonC extends android.support.v7.widget.AppCompatButton {
 
     //variables to reference the row and column, and the id of the faced down card
     public int row_6By6,column_6By6, actionHeight;

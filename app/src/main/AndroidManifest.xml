@@ -19,7 +19,7 @@
         <activity android:name=".StartScreen" android:screenOrientation="landscape" />
         <activity android:name=".login_registration.Login" android:screenOrientation="landscape" />
         <activity android:name=".login_registration.Registration" android:screenOrientation="landscape" />
-        <activity android:name=".MenuItems" android:screenOrientation="landscape"/>
+        <activity android:name=".Classes" android:screenOrientation="landscape" />
         <activity android:name=".games.tic_tac.TicTacToe" android:screenOrientation="landscape"/>
         <activity android:name=".games.tic_tac.Help" android:screenOrientation="landscape"/>
         <activity android:name=".games.tic_tac.GamePlay" android:screenOrientation="landscape"/>
@@ -28,11 +28,15 @@
         <activity android:name=".games.memory.Grid2x2_Activity" android:screenOrientation="portrait"/>
         <activity android:name=".games.memory.Grid4x4_Activity" android:screenOrientation="portrait" />
         <activity android:name=".games.memory.Grid6x6_Activity" android:screenOrientation="portrait" />
-        <activity android:name=".games.math.Mathematic" android:screenOrientation="portrait" />
-        <activity android:name=".games.math.PlayMath" android:screenOrientation="portrait" />
-        <activity android:name=".games.math.Records" android:screenOrientation="portrait" />
-        <activity android:name=".games.shulte.ShulteTabs" android:screenOrientation="portrait"/>
-        <activity android:name=".games.shulte.ShulteGame" android:screenOrientation="portrait"/>
+        <activity android:name=".games.math.Mathematic" android:screenOrientation="landscape" />
+        <activity android:name=".games.math.PlayMath" android:screenOrientation="landscape" />
+        <activity android:name=".games.math.Records" android:screenOrientation="landscape" />
+        <activity android:name=".games.shulte.ShulteTabs" android:screenOrientation="landscape"/>
+        <activity android:name=".games.shulte.ShulteGame" android:screenOrientation="landscape"/>
+        <activity android:name=".classes_repo.FirstClassItems" android:screenOrientation="landscape"/>
+        <activity android:name=".classes_repo.SecondClassItems" android:screenOrientation="landscape"/>
+        <activity android:name=".classes_repo.ThirdClassItems" android:screenOrientation="landscape"/>
+        <activity android:name=".classes_repo.FourthClassItems" android:screenOrientation="landscape"/>
 
 
     </application>

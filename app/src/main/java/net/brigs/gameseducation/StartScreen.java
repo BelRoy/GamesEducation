@@ -34,7 +34,7 @@ public class StartScreen extends AppCompatActivity {
         findViewById(R.id.imageView).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(StartScreen.this, MenuItems.class));
+                startActivity(new Intent(StartScreen.this, Classes.class));
             }
         });
     }

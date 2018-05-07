@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import net.brigs.gameseducation.MenuItems;
+import net.brigs.gameseducation.Classes;
 import net.brigs.gameseducation.R;
 
 
@@ -37,7 +37,7 @@ public class ShulteTabs extends Activity{
         findViewById(R.id.sh_exit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ShulteTabs.this, MenuItems.class));
+                startActivity(new Intent(ShulteTabs.this, Classes.class));
                 finish();
             }
         });

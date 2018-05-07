@@ -87,9 +87,9 @@
     <string name="play_button">Play</string>
     <string name="score_button">High Scores</string>
     <string name="exit_button">Exit</string>
-    <string name="dialog_title">Exit: Are you sure?</string>
+  <!--  <string name="dialog_title">Exit: Are you sure?</string>
     <string name="dialog_yes">Yes</string>
-    <string name="dialog_no">No</string>
+    <string name="dialog_no">No</string>-->
     <string name="scores_head">HIGH SCORES</string>
     <string name="enter_button">Enter</string>
     <string name="score_text">Score: 0</string>
@@ -127,4 +127,5 @@
     <string name="game_play_status_bar_step_format">Steps Used: %d</string>
     <string name="game_play_dialog_pause_dialog_title">Menu</string>
     <string name="pause_menu_background_change">Background</string>
+    <string name="class_check">Check Your class</string>
 </resources>

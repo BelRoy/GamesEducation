@@ -14,9 +14,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
-import net.brigs.gameseducation.MenuItems;
+import net.brigs.gameseducation.Classes;
 import net.brigs.gameseducation.R;
-import net.brigs.gameseducation.games.math.Records;
 
 
 public class Mathematic extends Activity implements View.OnClickListener {
@@ -79,7 +78,7 @@ public class Mathematic extends Activity implements View.OnClickListener {
                 break;
             case R.id.exit_button:
 
-                Intent exIntent = new Intent(this, MenuItems.class);
+                Intent exIntent = new Intent(this, Classes.class);
                 this.startActivity(exIntent);
                 finish();
 

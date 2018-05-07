@@ -3,7 +3,6 @@ package net.brigs.gameseducation.games.tic_tac;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,7 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import net.brigs.gameseducation.MenuItems;
+import net.brigs.gameseducation.Classes;
 import net.brigs.gameseducation.R;
 
 public class TicTacToe extends AppCompatActivity implements OnClickListener {
@@ -142,7 +141,7 @@ public class TicTacToe extends AppCompatActivity implements OnClickListener {
 			startActivity(aboutActivity);
 			break;
 		case R.id.exit_button:
-			Intent exitActivity = new Intent(this,MenuItems.class);
+			Intent exitActivity = new Intent(this,Classes.class);
 			startActivity(exitActivity);
 			finish();
 			break;

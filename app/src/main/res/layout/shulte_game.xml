@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_shulte"
-    tools:context=".game.ShulteGame">
+    tools:context=".games.shulte.ShulteGame">
 
     <TableRow
         android:layout_width="match_parent"
@@ -17,7 +17,8 @@
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_weight="1"
-            android:text="1"/>
+            android:background="@drawable/shulte_buttons"
+            android:text="1" />
 
         <Button
             android:id="@+id/button2"
@@ -26,6 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="2" />
 
         <Button
@@ -35,6 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_column="3"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="3" />
 
         <Button
@@ -44,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_column="4"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="4" />
 
         <Button
@@ -53,6 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_column="5"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="5" />
     </TableRow>
 
@@ -67,6 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="6" />
 
         <Button
@@ -76,6 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="7" />
 
         <Button
@@ -85,6 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_column="3"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="8" />
 
         <Button
@@ -94,6 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_column="4"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="9" />
 
         <Button
@@ -103,6 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_column="5"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="10" />
     </TableRow>
 
@@ -117,6 +127,7 @@
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="11" />
 
         <Button
@@ -126,6 +137,7 @@
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="12" />
 
         <Button
@@ -135,6 +147,7 @@
             android:layout_height="wrap_content"
             android:layout_column="3"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="13" />
 
         <Button
@@ -144,6 +157,7 @@
             android:layout_height="wrap_content"
             android:layout_column="4"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="14" />
 
         <Button
@@ -153,6 +167,7 @@
             android:layout_height="wrap_content"
             android:layout_column="5"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="15" />
     </TableRow>
 
@@ -167,6 +182,7 @@
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="16" />
 
         <Button
@@ -176,6 +192,7 @@
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="17" />
 
         <Button
@@ -185,6 +202,7 @@
             android:layout_height="wrap_content"
             android:layout_column="3"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="18" />
 
         <Button
@@ -194,6 +212,7 @@
             android:layout_height="wrap_content"
             android:layout_column="4"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="19" />
 
         <Button
@@ -203,6 +222,7 @@
             android:layout_height="wrap_content"
             android:layout_column="5"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="20" />
     </TableRow>
 
@@ -217,6 +237,7 @@
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="21" />
 
         <Button
@@ -226,6 +247,7 @@
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="22" />
 
         <Button
@@ -235,6 +257,7 @@
             android:layout_height="wrap_content"
             android:layout_column="3"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="23" />
 
         <Button
@@ -244,6 +267,7 @@
             android:layout_height="wrap_content"
             android:layout_column="4"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="24" />
 
         <Button
@@ -253,6 +277,7 @@
             android:layout_height="wrap_content"
             android:layout_column="5"
             android:layout_weight="1"
+            android:background="@drawable/shulte_buttons"
             android:text="25" />
     </TableRow>
 

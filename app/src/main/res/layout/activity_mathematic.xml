@@ -10,12 +10,13 @@
             android:id="@+id/intro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/mathematics"
-            android:textColor="#ffffffff"
-            android:textSize="20sp"
-            android:textStyle="bold"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:text="@string/mathematics"
+            android:textAlignment="center"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/dp_gameplay_bottom_button_bar_height"
+            android:textStyle="bold|italic" />
 
         <Button
             android:id="@+id/play_button"
@@ -23,12 +24,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/intro"
             android:layout_centerHorizontal="true"
-            android:layout_margin="5dp"
+            android:layout_marginTop="@dimen/dp_gameboard_left_right_margin"
             android:background="@drawable/enter_background"
-            android:padding="20dp"
             android:text="@string/play_button"
-            android:textColor="#ff333333"
-            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_vertical_margin"
             android:textStyle="bold" />
 
         <Button
@@ -37,26 +37,24 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/play_button"
             android:layout_centerHorizontal="true"
-            android:layout_margin="5dp"
+            android:layout_marginTop="@dimen/dp_gameboard_left_right_margin"
             android:background="@drawable/enter_background"
-            android:padding="20dp"
             android:text="@string/score_button"
-            android:textColor="#ff333333"
-            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_vertical_margin"
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/exit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/exit_button"
-            android:id="@+id/exit_button"
             android:layout_below="@id/high_button"
             android:layout_centerHorizontal="true"
-            android:layout_margin="5dp"
-            android:textColor="#ff333333"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dp_gameboard_left_right_margin"
             android:background="@drawable/enter_background"
-            android:padding="20dp" />
+            android:text="@string/exit_button"
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:textStyle="bold" />
 
 </RelativeLayout>
